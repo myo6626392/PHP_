@@ -8,21 +8,21 @@ class Task{
     public function __construct($title)
     {
         $this->title = $title;
-        $this->status = "pending";
-        $this->log("Assign Task::$this->title".PHP_EOL);
+        $this->status = "pending";//assign
+       // $this->log("Assign Task::$this->title".PHP_EOL);
     }
     public function complete(){
         
-        $this->status = "completed";
-        $this->log("Completd Task: $this->title is completed".PHP_EOL);
+        $this->status = "completed";//reassign
+//$this->log("Completd Task: $this->title is completed".PHP_EOL);
         
     }
     public function getTitle(){
-        $this->log("Title: $this->title".PHP_EOL);
+        //$this->log("Title: $this->title".PHP_EOL);
         return $this->title;
     }
       public function getStatus(){
-        $this->log("Status: $this->status".PHP_EOL);
+        //$this->log("Status: $this->status".PHP_EOL);
         return $this->status;
 
     }
