@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "classmap": [
+      "projects/",
+      "img/",
+      "cat/",
+      "news/",
+      "ship/"
+    ]
+  }
+}

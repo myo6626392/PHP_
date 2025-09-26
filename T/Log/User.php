@@ -1,9 +1,7 @@
 <?php
-require_once "./Logging.php";
-require_once "./Task.php";
+require "./Task.php";
 
 class User {
-    use Logging;
     private $name;
     private $email;
     private $tasks = [];

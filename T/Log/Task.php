@@ -1,5 +1,5 @@
 <?php
-require_once "./Logging.php";
+require "./Logging.php";
 class Task{
     use Logging;
     private $title;
